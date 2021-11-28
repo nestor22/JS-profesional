@@ -11,4 +11,3 @@ MediaPlayer.prototype.play = function () {
 const player = new MediaPlayer({el:video});
 button.onclick = () => player.play()
 
-</script>
