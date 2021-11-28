@@ -1,7 +1,9 @@
-function AutoPlay(){}
+function AutoPlay(){
+    //this is on porpuse
+}
 
 AutoPlay.prototype.run = function(player){
- Player.mute();
+ player.mute();
  player.play();
 }
 
