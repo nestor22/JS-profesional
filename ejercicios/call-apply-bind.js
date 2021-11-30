@@ -32,5 +32,9 @@ danielSaluda();
 //en el caso de bind el se crea una funcion al bindiar por lo que no e ejecuta como las anterioers
 
 const danieCamina = caminar.bind(daniel)
+//tambien se pueden harcodear y guardar argumentos parciales
+//const danieCamina = caminar.bind(daniel, 200, 'sur)
+//esta tecnica de guardar parcialmente se llama curring
 
 danielCamina(1000, 'este')
+

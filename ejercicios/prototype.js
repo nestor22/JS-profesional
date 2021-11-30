@@ -1,3 +1,14 @@
+function Hero(name){
+    const hero = {
+        name: name
+    }
+
+    hero.saludar = function (){
+        console.log(`Hola soy ${this.name}`)
+    }
+
+    return hero
+}
 const zelda = {
     name:"Zelda"
 }
