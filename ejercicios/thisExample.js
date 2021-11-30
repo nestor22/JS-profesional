@@ -47,3 +47,15 @@ action();
  * este nos da hola soy  y nada porque no logra llegar a this
  * y this en este caso es windows porque toma el global
  */
+
+//this en contexto de una instancia para
+function Person(name){
+    this.name = name
+}
+
+Person.prototype.saludar = function(){
+    console.log(`me llamo ${this.name}`)
+}
+
+const angela = new Person('Angela');
+angela.saludar();
