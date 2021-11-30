@@ -59,3 +59,7 @@ Person.prototype.saludar = function(){
 
 const angela = new Person('Angela');
 angela.saludar();
+/**
+ * en este  caso this es angela porque esta refiriendose al prototypo 
+ * donde fue creada por lo que si imprimer el nombre 
+ */
