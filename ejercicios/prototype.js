@@ -13,22 +13,11 @@ function Hero(name){
 
     return hero
 }
-const zelda = {
-    name:"Zelda"
-}
 
-zelda.saludar = function(){
-    console.log(`hola soy ${this.name}`)
-}
+const zelda = Hero ('Zelda')
+zelda.saludar()
 
-zelda.saludar();
+const link = Hero('Link')
+link.saludar()
 
-const link = {
-    name:"Link"
-}
 
-link.saludar = function(){
-    console.log(`hola soy ${this.name}`)
-}
-
-zelda.saludar();
