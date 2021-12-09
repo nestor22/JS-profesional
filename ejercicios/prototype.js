@@ -56,3 +56,12 @@ const zenda = new Herro('zelda')
  * por lo que todo el objeto esta instanciado y no es necesario tercerizar 
  * ya que el this se crea automaticamente
  */
+
+//herencia prototipal 
+
+cosole.log(zenda.name);
+
+// has hown properti  nos indica si elobjeto tiene alguna propiedas
+console.log(zenda.hasOwnProperty('name'))// retorna true
+
+
