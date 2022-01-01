@@ -1,0 +1,7 @@
+//Global Scope 
+//
+
+function printNumbers(){
+
+}
+
